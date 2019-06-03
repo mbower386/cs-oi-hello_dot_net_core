@@ -1,0 +1,76 @@
+Matthews-MacBook-Pro:cs-oi-hello_dot_net_core matthewbower$ dotnet new console -o FirstCSharp
+The template "Console Application" was created successfully.
+
+Processing post-creation actions...
+Running 'dotnet restore' on FirstCSharp/FirstCSharp.csproj...
+  Restoring packages for /Users/matthewbower/cs-project-workspace/coding-dojo/cs-oi-hello_dot_net_core/FirstCSharp/FirstCSharp.csproj...
+  Generating MSBuild file /Users/matthewbower/cs-project-workspace/coding-dojo/cs-oi-hello_dot_net_core/FirstCSharp/obj/FirstCSharp.csproj.nuget.g.props.
+  Generating MSBuild file /Users/matthewbower/cs-project-workspace/coding-dojo/cs-oi-hello_dot_net_core/FirstCSharp/obj/FirstCSharp.csproj.nuget.g.targets.
+  Restore completed in 165.24 ms for /Users/matthewbower/cs-project-workspace/coding-dojo/cs-oi-hello_dot_net_core/FirstCSharp/FirstCSharp.csproj.
+
+Restore succeeded.
+
+Matthews-MacBook-Pro:cs-oi-hello_dot_net_core matthewbower$ dotnet new console
+The template "Console Application" was created successfully.
+
+Processing post-creation actions...
+Running 'dotnet restore' on /Users/matthewbower/cs-project-workspace/coding-dojo/cs-oi-hello_dot_net_core/cs-oi-hello_dot_net_core.csproj...
+  Restoring packages for /Users/matthewbower/cs-project-workspace/coding-dojo/cs-oi-hello_dot_net_core/cs-oi-hello_dot_net_core.csproj...
+  Generating MSBuild file /Users/matthewbower/cs-project-workspace/coding-dojo/cs-oi-hello_dot_net_core/obj/cs-oi-hello_dot_net_core.csproj.nuget.g.props.
+  Generating MSBuild file /Users/matthewbower/cs-project-workspace/coding-dojo/cs-oi-hello_dot_net_core/obj/cs-oi-hello_dot_net_core.csproj.nuget.g.targets.
+  Restore completed in 175.88 ms for /Users/matthewbower/cs-project-workspace/coding-dojo/cs-oi-hello_dot_net_core/cs-oi-hello_dot_net_core.csproj.
+
+Restore succeeded.
+
+Matthews-MacBook-Pro:cs-oi-hello_dot_net_core matthewbower$ dotnet new console -o FirstCSharp
+The template "Console Application" was created successfully.
+
+Processing post-creation actions...
+Running 'dotnet restore' on FirstCSharp/FirstCSharp.csproj...
+  Restoring packages for /Users/matthewbower/cs-project-workspace/coding-dojo/cs-oi-hello_dot_net_core/FirstCSharp/FirstCSharp.csproj...
+  Generating MSBuild file /Users/matthewbower/cs-project-workspace/coding-dojo/cs-oi-hello_dot_net_core/FirstCSharp/obj/FirstCSharp.csproj.nuget.g.props.
+  Generating MSBuild file /Users/matthewbower/cs-project-workspace/coding-dojo/cs-oi-hello_dot_net_core/FirstCSharp/obj/FirstCSharp.csproj.nuget.g.targets.
+  Restore completed in 165.47 ms for /Users/matthewbower/cs-project-workspace/coding-dojo/cs-oi-hello_dot_net_core/FirstCSharp/FirstCSharp.csproj.
+
+Restore succeeded.
+
+Matthews-MacBook-Pro:cs-oi-hello_dot_net_core matthewbower$ dotnet new console -o HelloDotNetCore
+The template "Console Application" was created successfully.
+
+Processing post-creation actions...
+Running 'dotnet restore' on HelloDotNetCore/HelloDotNetCore.csproj...
+  Restoring packages for /Users/matthewbower/cs-project-workspace/coding-dojo/cs-oi-hello_dot_net_core/HelloDotNetCore/HelloDotNetCore.csproj...
+  Generating MSBuild file /Users/matthewbower/cs-project-workspace/coding-dojo/cs-oi-hello_dot_net_core/HelloDotNetCore/obj/HelloDotNetCore.csproj.nuget.g.props.
+  Generating MSBuild file /Users/matthewbower/cs-project-workspace/coding-dojo/cs-oi-hello_dot_net_core/HelloDotNetCore/obj/HelloDotNetCore.csproj.nuget.g.targets.
+  Restore completed in 167.55 ms for /Users/matthewbower/cs-project-workspace/coding-dojo/cs-oi-hello_dot_net_core/HelloDotNetCore/HelloDotNetCore.csproj.
+
+Restore succeeded.
+
+Matthews-MacBook-Pro:cs-oi-hello_dot_net_core matthewbower$ dotnet --version
+2.1.504
+Matthews-MacBook-Pro:cs-oi-hello_dot_net_core matthewbower$ dotnet build
+Microsoft (R) Build Engine version 15.9.20+g88f5fadfbe for .NET Core
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+MSBUILD : error MSB1003: Specify a project or solution file. The current working directory does not contain a project or solution file.
+Matthews-MacBook-Pro:cs-oi-hello_dot_net_core matthewbower$ cd HelloDotNetCore/
+Matthews-MacBook-Pro:HelloDotNetCore matthewbower$ dotnet build
+Microsoft (R) Build Engine version 15.9.20+g88f5fadfbe for .NET Core
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Restore completed in 34.9 ms for /Users/matthewbower/cs-project-workspace/coding-dojo/cs-oi-hello_dot_net_core/HelloDotNetCore/HelloDotNetCore.csproj.
+  HelloDotNetCore -> /Users/matthewbower/cs-project-workspace/coding-dojo/cs-oi-hello_dot_net_core/HelloDotNetCore/bin/Debug/netcoreapp2.1/HelloDotNetCore.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.97
+Matthews-MacBook-Pro:HelloDotNetCore matthewbower$ dotnet HelloDotNetCore.dll
+No executable found matching command "dotnet-HelloDotNetCore.dll"
+Matthews-MacBook-Pro:HelloDotNetCore matthewbower$ dotnet run
+Hello World!
+Matthews-MacBook-Pro:HelloDotNetCore matthewbower$ dotnet /Users/matthewbower/cs-project-workspace/coding-dojo/cs-oi-hello_dot_net_core/HelloDotNetCore/bin/Debug/netcoreapp2.1/HelloDotNetCore.dll
+Hello World!
+Matthews-MacBook-Pro:HelloDotNetCore matthewbower$ dotnet runHello World!
+Matthews-MacBook-Pro:HelloDotNetCore matthewbower$ 

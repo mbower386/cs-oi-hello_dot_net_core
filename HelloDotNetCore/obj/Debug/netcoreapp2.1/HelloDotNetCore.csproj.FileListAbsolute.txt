@@ -1,0 +1,11 @@
+/Users/matthewbower/cs-project-workspace/coding-dojo/cs-oi-hello_dot_net_core/HelloDotNetCore/bin/Debug/netcoreapp2.1/HelloDotNetCore.deps.json
+/Users/matthewbower/cs-project-workspace/coding-dojo/cs-oi-hello_dot_net_core/HelloDotNetCore/bin/Debug/netcoreapp2.1/HelloDotNetCore.runtimeconfig.json
+/Users/matthewbower/cs-project-workspace/coding-dojo/cs-oi-hello_dot_net_core/HelloDotNetCore/bin/Debug/netcoreapp2.1/HelloDotNetCore.runtimeconfig.dev.json
+/Users/matthewbower/cs-project-workspace/coding-dojo/cs-oi-hello_dot_net_core/HelloDotNetCore/bin/Debug/netcoreapp2.1/HelloDotNetCore.dll
+/Users/matthewbower/cs-project-workspace/coding-dojo/cs-oi-hello_dot_net_core/HelloDotNetCore/bin/Debug/netcoreapp2.1/HelloDotNetCore.pdb
+/Users/matthewbower/cs-project-workspace/coding-dojo/cs-oi-hello_dot_net_core/HelloDotNetCore/obj/Debug/netcoreapp2.1/HelloDotNetCore.csprojAssemblyReference.cache
+/Users/matthewbower/cs-project-workspace/coding-dojo/cs-oi-hello_dot_net_core/HelloDotNetCore/obj/Debug/netcoreapp2.1/HelloDotNetCore.csproj.CoreCompileInputs.cache
+/Users/matthewbower/cs-project-workspace/coding-dojo/cs-oi-hello_dot_net_core/HelloDotNetCore/obj/Debug/netcoreapp2.1/HelloDotNetCore.AssemblyInfoInputs.cache
+/Users/matthewbower/cs-project-workspace/coding-dojo/cs-oi-hello_dot_net_core/HelloDotNetCore/obj/Debug/netcoreapp2.1/HelloDotNetCore.AssemblyInfo.cs
+/Users/matthewbower/cs-project-workspace/coding-dojo/cs-oi-hello_dot_net_core/HelloDotNetCore/obj/Debug/netcoreapp2.1/HelloDotNetCore.dll
+/Users/matthewbower/cs-project-workspace/coding-dojo/cs-oi-hello_dot_net_core/HelloDotNetCore/obj/Debug/netcoreapp2.1/HelloDotNetCore.pdb
